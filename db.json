@@ -1,0 +1,64 @@
+{
+  "quotes": [
+    {
+      "id": 1,
+      "quote": "Today is the day!"
+    },
+    {
+      "id": 2,
+      "quote": "If you don't have a plan, you're planning to fail"
+    },
+    {
+      "id": 3,
+      "quote": "The sky is blue."
+    },
+    {
+      "id": 4,
+      "quote": "Why did the programmer quit his job? He didn't get arrays!"
+    },
+    {
+      "id": 5,
+      "quote": "I told my wife she should embrace her mistakes. She gave me a hug."
+    },
+    {
+      "id": 6,
+      "quote": "Why did the physics teacher break up with the biology teacher? There was no chemistry."
+    },
+    {
+      "id": 7,
+      "quote": "Entropy isn't what it used to be."
+    },
+    {
+      "id": 8,
+      "quote": "Why did the mathematician throw his clock out the window? He wanted to see time fly."
+    },
+    {
+      "id": 9,
+      "quote": "I used to play piano by ear, but now I use my hands and fingers."
+    },
+    {
+      "id": 10,
+      "quote": "Parallel lines have so much in common. It's a shame they'll never meet."
+    },
+    {
+      "id": 11,
+      "quote": "I'm reading a book on anti-gravity. It's impossible to put down!"
+    },
+    {
+      "id": 12,
+      "quote": "Why don't scientists trust atoms? Because they make up everything!"
+    },
+    {
+      "id": 13,
+      "quote": "The early bird might get the worm, but the second mouse gets the cheese."
+    },
+    {
+      "id": 14,
+      "quote": "Why don't programmers like nature? It has too many bugs."
+    },
+    {
+      "id": 15,
+      "quote": "Have you tried eating a watch? I heard it is really time consuming."
+    }
+  ]
+}

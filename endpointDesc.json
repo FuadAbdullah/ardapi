@@ -1,0 +1,27 @@
+{
+  "endpoints": {
+    "quotes": {
+      "desc": "Returns one random quote every time.",
+      "parameter": ""
+    },
+    "color": {
+      "desc": "Returns one random hex code of a color every time.",
+      "parameter": ""
+    },
+    "range": {
+      "desc": "Returns a number between the provided range",
+      "parameter": {
+        ":start": {
+          "desc": "The starting number of the range."
+        },
+        ":end": {
+          "desc": "The ending number of the range."
+        }
+      }
+    },
+    "health": {
+      "desc": "Returns the OK status as long as the api server is not dead :).",
+      "parameter": ""
+    }
+  }
+}
