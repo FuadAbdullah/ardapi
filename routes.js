@@ -1,9 +1,6 @@
 const Router = require("koa-router");
 const router = new Router();
 const fs = require("fs");
-require("dotenv").config({
-  path: "./.env",
-});
 const baseUrl = process.env.ARDAPI_BASE_URL || "/ardapi/v1";
 
 // Return list of available endpoints to call
