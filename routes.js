@@ -4,7 +4,7 @@ const fs = require("fs");
 require("dotenv").config({
   path: "./.env",
 });
-const baseUrl = process.env.ARDAPI_BASE_URL;
+const baseUrl = process.env.ARDAPI_BASE_URL || "/ardapi/v1";
 
 // Return list of available endpoints to call
 router.get(`${baseUrl}`, (ctx) => {

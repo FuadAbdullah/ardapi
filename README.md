@@ -20,3 +20,11 @@ Returns a number between the provided range
 ### Parameters
 1. `:start`: The starting number of the range.
 2. `:end`: The ending number of the range.
+
+## Environment Variables
+
+| Key  | Value  |
+|---|---|
+| ARDAPI_BASE_URL  | /ardapi/v1  |
+| PORT  | 3000  |
+
