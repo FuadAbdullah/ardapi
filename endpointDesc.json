@@ -22,6 +22,10 @@
     "health": {
       "desc": "Returns the OK status as long as the api server is not dead :).",
       "parameter": ""
+    },
+    "info": {
+      "desc": "Returns the information of the server assigned to handle this request.).",
+      "parameter": ""
     }
   }
 }

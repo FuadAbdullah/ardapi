@@ -17,6 +17,7 @@ router.get(`${baseUrl}/health`, (ctx) => {
   ctx.body = { status: "OK" };
 });
 
+// Return instance info
 router.get(`${baseUrl}/info`, (ctx) => {
   ctx.body = {
     name: instanceName,
