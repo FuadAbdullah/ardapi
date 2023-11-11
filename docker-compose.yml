@@ -2,7 +2,7 @@ version: '3'
 
 services:
   ardapi:
-    image: ardwashere/ardapi
+    image: ardwashere/ardapiserver
     container_name: ardapi
     restart: always
     environment:
