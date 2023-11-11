@@ -2,6 +2,7 @@ const Router = require("koa-router");
 const router = new Router();
 const fs = require("fs");
 const baseUrl = process.env.ARDAPI_BASE_URL || "/ardapi/v1";
+const instanceName = process.env.ARDAPI_INSTANCE_NAME || "default-instance";
 
 // Return list of available endpoints to call
 router.get(`${baseUrl}`, (ctx) => {
@@ -14,6 +15,13 @@ router.get(`${baseUrl}`, (ctx) => {
 // Return health status of the api server
 router.get(`${baseUrl}/health`, (ctx) => {
   ctx.body = { status: "OK" };
+});
+
+router.get(`${baseUrl}/info`, (ctx) => {
+  ctx.body = {
+    name: instanceName,
+    desc: `Your request was handled by ${instanceName}.`,
+  };
 });
 
 // Get random quotes

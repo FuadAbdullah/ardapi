@@ -8,11 +8,5 @@ services:
     environment:
       - ARDAPI_BASE_URL=/ardapi/v1
       - PORT=3000
-    networks:
-      - ardnetwork
     ports:
       - "3000:3000"
-
-networks:
-  ardnetwork:
-    external: true
