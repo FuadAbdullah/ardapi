@@ -7,6 +7,7 @@ services:
     restart: always
     environment:
       - ARDAPI_BASE_URL=/ardapi/v1
+      - ARDAPI_INSTANCE_NAME=default-instance
       - PORT=3000
     ports:
       - "3000:3000"
