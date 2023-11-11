@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  ardapi:
+    image: ardwashere/ardapi
+    container_name: ardapi
+    restart: always
+    environment:
+      - ARDAPI_BASE_URL=/ardapi/v1
+      - PORT=3000
+    networks:
+      - ardnetwork
+    ports:
+      - "3000:3000"
