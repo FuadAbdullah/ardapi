@@ -12,3 +12,7 @@ services:
       - ardnetwork
     ports:
       - "3000:3000"
+
+networks:
+  ardnetwork:
+    external: true
