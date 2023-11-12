@@ -1,10 +1,12 @@
+// Get container information
+require("./init")();
+const { variables } = require("./var");
+
 // Import Koa
 const Koa = require("koa");
 const app = new Koa();
 const morgan = require("koa-morgan");
 const router = require("./routes");
-const getDockerId = require("docker-container-id");
-
 // Morgan to log HTTP requests
 app.use(morgan("combined", {}));
 
@@ -26,10 +28,6 @@ app.use(router.allowedMethods());
 const port = process.env.PORT || 3000;
 app.listen(port, async () => {
   console.log(
-    `ardapi is running on port ${port}, ${
-      (await getDockerId()) === false
-        ? "this instance is not containerized."
-        : "Docker ID is " + (await getDockerId())
-    }`
+    `ardapi is running on port ${port}, the instance ID is ${variables.containerId}`
   );
 });

@@ -20,6 +20,14 @@ Returns one random hex code of a color every time.
 
 Returns a number between the provided range
 
+## /info
+
+Returns the server's unique name derived from the container's name
+
+## /muse
+
+Returns Muse's albums and song tracks list
+
 ### Parameters
 
 1. `:start`: The starting number of the range.
@@ -30,9 +38,8 @@ Returns a number between the provided range
 | Key                  | Value            |
 | -------------------- | ---------------- |
 | ARDAPI_BASE_URL      | /ardapi/v1       |
-| ARDAPI_INSTANCE_NAME | default-instance |
 | PORT                 | 3000             |
 
 ## Installation
 
-Simply run `docker build -t ardapi .` to build the image. Alternatively, you can pull a prebuilt image from my DockerHub repository by issuing `docker pull ardwashere/ardapi`. Once the image is retrieved, you can use docker-compose to run the container.
+Simply run `docker build -t ardapi .` to build the image. Alternatively, you can pull a prebuilt image from my DockerHub repository by issuing `docker pull ardwashere/ardapiserver:latest`. Once the image is retrieved, you can use docker-compose to run the container.

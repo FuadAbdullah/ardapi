@@ -3,7 +3,6 @@ FROM node:20
 
 # Set the environment variables
 ENV ARDAPI_BASE_URL=/ardapi/v1
-ENV ARDAPI_INSTANCE_NAME=default-instance
 ENV PORT=3000
 
 # Set working dir

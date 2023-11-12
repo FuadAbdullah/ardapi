@@ -2,7 +2,7 @@ const Router = require("koa-router");
 const router = new Router();
 const fs = require("fs");
 const baseUrl = process.env.ARDAPI_BASE_URL || "/ardapi/v1";
-const instanceName = process.env.ARDAPI_INSTANCE_NAME || "default-instance";
+const { variables } = require("./var");
 
 // Return list of available endpoints to call
 router.get(`${baseUrl}`, (ctx) => {
@@ -20,8 +20,8 @@ router.get(`${baseUrl}/health`, (ctx) => {
 // Return instance info
 router.get(`${baseUrl}/info`, (ctx) => {
   ctx.body = {
-    name: instanceName,
-    desc: `Your request was handled by ${instanceName}.`,
+    name: variables.containerId,
+    desc: `Your request was handled by ${variables.containerId}.`,
   };
 });
 
@@ -45,6 +45,14 @@ router.get(`${baseUrl}/range/:start/:end`, (ctx) => {
   const end = parseInt(ctx.params.end);
   const randomNum = Math.floor(Math.random() * (end - start + 1) + start);
   ctx.body = { number: randomNum };
+});
+
+// Return Muse's albums and track lists
+router.get(`${baseUrl}/muse`, (ctx) => {
+  const museAlbum = JSON.parse(
+    fs.readFileSync("muse.json", "utf-8")
+  );
+  ctx.body = museAlbum;
 });
 
 module.exports = router;

@@ -1,0 +1,477 @@
+{
+  "album": [
+    {
+      "title": "will-of-the-people",
+      "songs": [
+        {
+          "id": 1,
+          "title": "will-of-the-people",
+          "shorthand": "wotp"
+        },
+        {
+          "id": 2,
+          "title": "compliance"
+        },
+        {
+          "id": 3,
+          "title": "liberation"
+        },
+        {
+          "id": 4,
+          "title": "wont-stand-down"
+        },
+        {
+          "id": 5,
+          "title": "ghosts-how-can-i-move-on"
+        },
+        {
+          "id": 6,
+          "title": "you-make-me-feel-like-its-halloween",
+          "shorthand": "ymmflih"
+        },
+        {
+          "id": 7,
+          "title": "kill-or-be-killed",
+          "shorthand": "kobk"
+        },
+        {
+          "id": 8,
+          "title": "verona"
+        },
+        {
+          "id": 9,
+          "title": "euphoria"
+        },
+        {
+          "id": 10,
+          "title": "we-are-fucking-fucked",
+          "shorthand": "waff"
+        }
+      ]
+    },
+    {
+      "title": "showbiz",
+      "songs": [
+        {
+          "id": 1,
+          "title": "sunburn"
+        },
+        {
+          "id": 2,
+          "title": "muscle-museum"
+        },
+        {
+          "id": 3,
+          "title": "fillip"
+        },
+        {
+          "id": 4,
+          "title": "falling-down"
+        },
+        {
+          "id": 5,
+          "title": "cave"
+        },
+        {
+          "id": 6,
+          "title": "showbiz"
+        },
+        {
+          "id": 7,
+          "title": "unintended"
+        },
+        {
+          "id": 8,
+          "title": "uno"
+        },
+        {
+          "id": 9,
+          "title": "sober"
+        },
+        {
+          "id": 10,
+          "title": "escape"
+        },
+        {
+          "id": 11,
+          "title": "overdue"
+        },
+        {
+          "id": 12,
+          "title": "hate-this-and-ill-love-you",
+          "shorthand": "htaily"
+        }
+      ]
+    },
+    {
+      "title": "origin-of-symmetry",
+      "songs": [
+        {
+          "id": 1,
+          "title": "new-born"
+        },
+        {
+          "id": 2,
+          "title": "bliss"
+        },
+        {
+          "id": 3,
+          "title": "space-dementia"
+        },
+        {
+          "id": 4,
+          "title": "hyper-music"
+        },
+        {
+          "id": 5,
+          "title": "plug-in-baby"
+        },
+        {
+          "id": 6,
+          "title": "citizen-erased"
+        },
+        {
+          "id": 7,
+          "title": "micro-cuts"
+        },
+        {
+          "id": 8,
+          "title": "screenager"
+        },
+        {
+          "id": 9,
+          "title": "darkshines"
+        },
+        {
+          "id": 10,
+          "title": "feeling-good"
+        },
+        {
+          "id": 11,
+          "title": "megalomania"
+        }
+      ]
+    },
+    {
+      "title": "absolution",
+      "songs": [
+        {
+          "id": 1,
+          "title": "intro"
+        },
+        {
+          "id": 2,
+          "title": "apocalypse-please"
+        },
+        {
+          "id": 3,
+          "title": "time-is-running-out"
+        },
+        {
+          "id": 4,
+          "title": "sing-for-absolution"
+        },
+        {
+          "id": 5,
+          "title": "stockholm-syndrome"
+        },
+        {
+          "id": 6,
+          "title": "falling-away-with-you",
+          "shorthand": "fawy"
+        },
+        {
+          "id": 7,
+          "title": "interlude"
+        },
+        {
+          "id": 8,
+          "title": "hysteria"
+        },
+        {
+          "id": 9,
+          "title": "blackout"
+        },
+        {
+          "id": 10,
+          "title": "butterflies-and-hurricanes"
+        },
+        {
+          "id": 11,
+          "title": "the-small-print"
+        },
+        {
+          "id": 12,
+          "title": "endlessly"
+        },
+        {
+          "id": 13,
+          "title": "thoughts-of-a-dying-atheist",
+          "shorthand": "toada"
+        },
+        {
+          "id": 14,
+          "title": "ruled-by-secrecy"
+        }
+      ]
+    },
+    {
+      "title": "black-holes-and-revelations",
+      "songs": [
+        {
+          "id": 1,
+          "title": "take-a-bow"
+        },
+        {
+          "id": 2,
+          "title": "starlight"
+        },
+        {
+          "id": 3,
+          "title": "supermassive-black-hole",
+          "shorthand": "smbh"
+        },
+        {
+          "id": 4,
+          "title": "map-of-the-problematique",
+          "shorthand": "motp"
+        },
+        {
+          "id": 5,
+          "title": "soldiers-poem"
+        },
+        {
+          "id": 6,
+          "title": "invincible"
+        },
+        {
+          "id": 7,
+          "title": "assassin"
+        },
+        {
+          "id": 8,
+          "title": "exo-politics"
+        },
+        {
+          "id": 9,
+          "title": "city-of-delusion"
+        },
+        {
+          "id": 10,
+          "title": "hoodoo"
+        },
+        {
+          "id": 11,
+          "title": "knights-of-cydonia"
+        }
+      ]
+    },
+    {
+      "title": "the-resistance",
+      "songs": [
+        {
+          "id": 1,
+          "title": "uprising"
+        },
+        {
+          "id": 2,
+          "title": "resistance"
+        },
+        {
+          "id": 3,
+          "title": "undisclosed-desires"
+        },
+        {
+          "id": 4,
+          "title": "united-states-of-eurasia"
+        },
+        {
+          "id": 5,
+          "title": "guiding-light"
+        },
+        {
+          "id": 6,
+          "title": "unnatural-selection"
+        },
+        {
+          "id": 7,
+          "title": "mk-ultra"
+        },
+        {
+          "id": 8,
+          "title": "i-belong-to-you"
+        },
+        {
+          "id": 9,
+          "title": "exogenesis-symphony-part-1",
+          "shorthand": "overture"
+        },
+        {
+          "id": 10,
+          "title": "exogenesis-symphony-part-2",
+          "shorthand": "cross-pollination"
+        },
+        {
+          "id": 11,
+          "title": "exogenesis-symphony-part-3",
+          "shorthand": "redemption"
+        }
+      ]
+    },
+    {
+      "title": "the-2nd-law",
+      "songs": [
+        {
+          "id": 1,
+          "title": "supremacy"
+        },
+        {
+          "id": 2,
+          "title": "madness"
+        },
+        {
+          "id": 3,
+          "title": "panic-station"
+        },
+        {
+          "id": 4,
+          "title": "prelude"
+        },
+        {
+          "id": 5,
+          "title": "survival"
+        },
+        {
+          "id": 6,
+          "title": "follow-me"
+        },
+        {
+          "id": 7,
+          "title": "animals"
+        },
+        {
+          "id": 8,
+          "title": "explorers"
+        },
+        {
+          "id": 9,
+          "title": "big-freeze"
+        },
+        {
+          "id": 10,
+          "title": "save-me"
+        },
+        {
+          "id": 11,
+          "title": "liquid-state"
+        },
+        {
+          "id": 12,
+          "title": "unsustainable"
+        },
+        {
+          "id": 13,
+          "title": "isolated-system"
+        }
+      ]
+    },
+    {
+      "title": "drones",
+      "songs": [
+        {
+          "id": 1,
+          "title": "dead-inside"
+        },
+        {
+          "id": 2,
+          "title": "drill-sergeant"
+        },
+        {
+          "id": 3,
+          "title": "psycho"
+        },
+        {
+          "id": 4,
+          "title": "mercy"
+        },
+        {
+          "id": 5,
+          "title": "reapers"
+        },
+        {
+          "id": 6,
+          "title": "the-handler"
+        },
+        {
+          "id": 7,
+          "title": "defector"
+        },
+        {
+          "id": 8,
+          "title": "revolt"
+        },
+        {
+          "id": 9,
+          "title": "aftermath"
+        },
+        {
+          "id": 10,
+          "title": "the-globalist"
+        },
+        {
+          "id": 11,
+          "title": "drones"
+        }
+      ]
+    },
+    {
+      "title": "simulation-theory",
+      "songs": [
+        {
+          "id": 1,
+          "title": "algorithm"
+        },
+        {
+          "id": 2,
+          "title": "the-dark-side"
+        },
+        {
+          "id": 3,
+          "title": "pressure"
+        },
+        {
+          "id": 4,
+          "title": "propaganda"
+        },
+        {
+          "id": 5,
+          "title": "break-it-to-me"
+        },
+        {
+          "id": 6,
+          "title": "something-human"
+        },
+        {
+          "id": 7,
+          "title": "thought-contagion"
+        },
+        {
+          "id": 8,
+          "title": "get-up-and-fight"
+        },
+        {
+          "id": 9,
+          "title": "blockades"
+        },
+        {
+          "id": 10,
+          "title": "dig-down"
+        },
+        {
+          "id": 11,
+          "title": "the-void"
+        }
+      ]
+    }
+  ]
+}
